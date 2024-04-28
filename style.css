@@ -1,0 +1,102 @@
+header {
+    height: 80px;
+    background-color: rgb(211, 241, 212); /* Set background color for the entire header */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header-list {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* VERTICAL*/ 
+    align-items: center; /* SAME vertical LINE*/
+    position:fixed; 
+    top: 0px;
+    left:20px;
+    overflow: scroll;
+    width: calc(100% - 20px);
+}
+
+.header-list li {
+    margin-right: 50px;  /* SPACE between list items */
+    margin-left: 25px; /* SPACE in front of list items */
+}
+
+#logo {
+    color: darkgreen;
+}
+
+main {
+    margin-top: 90px;
+    margin: left 0cap;
+    background-image: linear-gradient(#feffff, #93d3c9);
+}
+
+h1 {
+    color:burlywood;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    color:chocolate;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* .list-of-cutest-puppies{
+    max-width: 85%;
+    position: relative;
+} */
+
+/* h3{
+    border-bottom: none;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    line-height: 1.4;
+    margin: 40px 0 10px;
+    box-sizing:border-box;
+    position: relative;
+} */
+.number{
+    line-height: 1;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:brown;
+    font-weight: 700;
+    padding: 0 4px;
+    white-space:nowrap;
+    display:inline-block;
+    vertical-align: middle;
+}
+.line-after-number{
+    width: 10px;
+    height:20px;
+    border-left:1px solid #060606;
+    margin: 0 10px;
+    vertical-align: middle;
+    display:inline-block;
+}
+.title{
+    display: inline-block;
+    font-size:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgba(21, 59, 18, 0.984);
+    letter-spacing: .6px;
+    line-height:20px;
+    vertical-align: middle;
+}
+.puppies-images{
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.puppy-list {
+    text-decoration: aqua;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(11, 53, 47);
+    font-size: larger;
+
+}
